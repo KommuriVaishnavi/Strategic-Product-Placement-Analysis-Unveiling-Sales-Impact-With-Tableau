@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Strategic Product Placement Analysis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      position: fixed;
+      width: 100%;
+      background: #2c3e50;
+      padding: 15px;
+      top: 0;
+      z-index: 999;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      height: 100vh;
+      background: linear-gradient(to right, #2c3e50, #4ca1af);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+    }
+
+    section {
+      padding: 120px 20px 60px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 800px;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav>
+  <a href="#home">Home</a>
+  <a href="#dashboard1">Dashboard 1</a>
+  <a href="#dashboard2">Dashboard 2</a>
+  <a href="#story1">Story 1</a>
+</nav>
+
+<!-- Hero -->
+<div id="home" class="hero">
+  <h1>Strategic Product Placement Analysis</h1>
+</div>
+
+<!-- Dashboard 1 -->
+<section id="dashboard1">
+  <h2>Dashboard 1</h2>
+  <iframe
+    src="https://public.tableau.com/views/project1_17713498337330/Dashboard1?:showVizHome=no&:embed=true"
+    allowfullscreen>
+  </iframe>
+</section>
+
+<!-- Dashboard 2 -->
+<section id="dashboard2">
+  <h2>Dashboard 2</h2>
+  <iframe
+    src="https://public.tableau.com/views/project1_17713498337330/Dashboard2?:showVizHome=no&:embed=true"
+    allowfullscreen>
+  </iframe>
+</section>
+
+<!-- Story 1 -->
+<section id="story1">
+  <h2>Story 1</h2>
+  <iframe
+    src="https://public.tableau.com/views/project1_17713498337330/Story1?:showVizHome=no&:embed=true"
+    allowfullscreen>
+  </iframe>
+</section>
+
+</body>
+</html>
